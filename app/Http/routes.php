@@ -11,6 +11,10 @@
 |
 */
 
+//Route::get('/', [ 'as' => 'home', 'uses' => 'FrontendController@getHome']);
+
+//Route::get('/book/{id}', [ 'as' => 'bookDetail', 'uses' => 'FrontendController@getBookDetail']);
+
 Route::get('/', function () {
     return view('welcome');
 });
